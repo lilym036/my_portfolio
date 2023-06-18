@@ -1,4 +1,3 @@
-/*general styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,31 +5,53 @@
 }
 
 .header {
-    padding: 7px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-
 }
+
 .header h1 {
     display: inline-block;
     font-size: 30px;
+    background-color: pink;
+    color:#2a607c
 }
 
 .header nav {
-    padding-top: 9px;
-    margin-right: 36px;
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    font-size: 16px;
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-decoration:underline;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+.box{
+    display: block;
+    font-size: 30px;
+    color:#2a607c;
+    background-color: pink;
+    position:absolute;
+    left: 1070px;
+    bottom: 382px;
+}
+
+.nature {
+    height: 298px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/project-1.jpg");
+    background-size: cover;
+    background-position: center;
 }
