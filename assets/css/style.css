@@ -4,21 +4,21 @@
     margin: 0;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 30px;
     background-color: pink;
     color:#2a607c
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -26,15 +26,16 @@
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
     font-size: 16px;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration:underline;
+    color:pink;
 }
 
 .box{
@@ -43,7 +44,7 @@
     color:#2a607c;
     background-color: pink;
     position:absolute;
-    left: 1070px;
+    left: 80%;
     bottom: 382px;
 }
 
@@ -54,4 +55,103 @@
     background-image: url("../images/project-1.jpg");
     background-size: cover;
     background-position: center;
+}
+main {
+    width: 88%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+section > h2 {
+    flex-basis: 23%;
+    border-right: 3px solid black;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+section > div {
+    flex-basis: 77%;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container a {
+    border: 3px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    margin: 0.5em;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    background-size: 150%;
+    color:#2a607c;
+}
+
+.container a:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+#picture-1 {
+    background-image: url("../images/plant-1.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#picture-2 {
+    background-image: url("../images/plant-2.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#picture-3 {
+    background-image: url("../images/plant-3.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#picture-4 {
+    background-image: url("../images/plant-4.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#picture-5 {
+    background-image: url("../images/plant-5.jpg");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container a div {
+    background-color: pink;
+}
+
+.ending ul li {
+    display: inline-block;
+    text-decoration:underline;
+    padding-left: 10px;
+    font-size: 16px;
 }
