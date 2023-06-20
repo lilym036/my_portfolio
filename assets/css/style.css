@@ -5,6 +5,8 @@
 }
 
 header {
+    /* display: flex;
+    flex-wrap: wrap; */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,7 +24,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -36,6 +38,7 @@ header nav ul li {
     margin-left: 25px;
     text-decoration:underline;
     color:pink;
+    cursor: pointer;
 }
 
 .box{
@@ -69,15 +72,15 @@ section {
 }
 
 section > h2 {
-    flex-basis: 23%;
+    flex-basis: 13%;
     border-right: 3px solid black;
     text-align: right;
     padding-right: 20px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 section > div {
-    flex-basis: 77%;
+    flex-basis: 86%;
     padding-left: 10px;
 }
 
@@ -107,51 +110,57 @@ section > div {
 
 #picture-1 {
     background-image: url("../images/plant-1.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #picture-2 {
     background-image: url("../images/plant-2.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #picture-3 {
     background-image: url("../images/plant-3.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #picture-4 {
     background-image: url("../images/plant-4.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #picture-5 {
     background-image: url("../images/plant-5.jpg");
-    background-size: 10%;
+}
+
+#picture-1, #picture-2, #picture-3, #picture-4, #picture-5 {
+    background-size: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+}  
 
 .container a div {
     background-color: pink;
 }
 
+.ending ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .ending ul li {
-    display: inline-block;
+    /* display: inline-block; */
+    justify-content: space-around;
+    list-style-type: none;
     text-decoration:underline;
     padding-left: 10px;
     font-size: 16px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    header, header nav ul li, .container, .ending ul li {
+        /* display: block; */
+        width: 100%;
+        flex-direction: column;
+    }
+    h2 {
+        border-bottom: 3px solid black;
+        border-right: none;
+    }
 }
