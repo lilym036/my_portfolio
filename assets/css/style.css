@@ -1,12 +1,12 @@
+/*general styling*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* header css */
 header {
-    /* display: flex;
-    flex-wrap: wrap; */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -26,7 +26,6 @@ header nav {
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    /* display: flex; */
 }
 
 header nav ul {
@@ -53,6 +52,7 @@ header nav ul li {
     bottom: 382px;
 }
 
+/* styling for bakground image */
 .nature {
     height: 298px;
     width: 100%;
@@ -61,6 +61,8 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+
+/* styling for main */
 main {
     width: 88%;
     margin: 0 auto;
@@ -130,6 +132,7 @@ section > div {
     background-image: url("../images/plant-5.jpg");
 }
 
+/* styling for background images in sections*/
 #picture-1, #picture-2, #picture-3, #picture-4, #picture-5 {
     background-size: 50%;
     background-repeat: no-repeat;
@@ -147,7 +150,6 @@ section > div {
 }
 
 .ending ul li {
-    /* display: inline-block; */
     justify-content: space-around;
     list-style-type: none;
     text-decoration:underline;
@@ -155,9 +157,10 @@ section > div {
     font-size: 16px;
     cursor: pointer;
 }
+
+/* added media query */
 @media screen and (max-width: 768px) {
     header, header nav ul li, .container, .ending ul li {
-        /* display: block; */
         width: 100%;
         flex-direction: column;
     }
@@ -170,7 +173,7 @@ section > div {
         padding: 1%;
     }
 }
-
+/* added styling for links */
 nav a:visited {
     color: pink;
   }
