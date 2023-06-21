@@ -11,6 +11,8 @@ Open index.html file in the browser. Click on the "About Me, "Work," "Contact Me
 
 ![alt text](./assets/images/screenshot-2.png)
 
+https://lilym036.github.io/my_portfolio/#
+
 ## Credits
 Meg Meyers- Tutor
 
