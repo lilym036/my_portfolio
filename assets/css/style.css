@@ -164,3 +164,14 @@ section > div {
         border-right: none;
     }
 }
+
+nav a:visited {
+    color: pink;
+  }
+.ending a:link {
+    color: #2a607c;
+  }
+
+ .ending a:visited {
+    color:#2a607c;
+  }
