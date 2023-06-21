@@ -4,8 +4,7 @@
 This project was created to allow potential employers to review a candidate's samples of their work and assess whether they're a good candidate for an open position. An employer is able to do this by viewing a candidates deployed portfolio of work samples. 
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 Open index.html file in the browser. Click on the "About Me, "Work," "Contact Me," or "Resume" tabs on the top right corner to read about each section.
