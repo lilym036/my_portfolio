@@ -9,11 +9,7 @@ N/A
 ## Usage
 Open index.html file in the browser. Click on the "About Me, "Work," "Contact Me," or "Resume" tabs on the top right corner to read about each section.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt text](./assets/images/screenshot-2.png)
 
 ## Credits
 Meg Meyers- Tutor
@@ -40,3 +36,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+

@@ -49,7 +49,8 @@ header nav ul li {
     background-color: pink;
     position:absolute;
     left: 80%;
-    bottom: 382px;
+    /* bottom: 382px; */
+    bottom: 60%;
 }
 
 /* styling for bakground image */
